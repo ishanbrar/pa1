@@ -1,0 +1,50 @@
+Script started on 2020-02-02 16:19:53-0600
+]0;singhz@singhz-VirtualBox: ~[01;32msinghz@singhz-VirtualBox[00m:[01;34m~[00m$ cd
+]0;singhz@singhz-VirtualBox: ~[01;32msinghz@singhz-VirtualBox[00m:[01;34m~[00m$ ls
+Ch2.Lab1.scriptout  chapter3lab1  [0m[01;34mDocuments[0m  hello.c   practice   [01;34mtest[0m
+Ch3.Lab1.scriptout  chapter4lab1  dog        [01;34mMusic[0m     [01;34mPublic[0m     testfile
+Ch4.Lab1.scriptout  days          [01;34mDownloads[0m  PA1       record2    test.txt
+Ch4.Lab2.scriptout  [01;34mDesktop[0m       [01;32mhello[0m      [01;34mPictures[0m  [01;34mTemplates[0m  [01;34mVideos[0m
+]0;singhz@singhz-VirtualBox: ~[01;32msinghz@singhz-VirtualBox[00m:[01;34m~[00m$ cd Ds[Keskstop[K[K[K[Ktop
+]0;singhz@singhz-VirtualBox: ~/Desktop[01;32msinghz@singhz-VirtualBox[00m:[01;34m~/Desktop[00m$ ls
+main.cpp
+]0;singhz@singhz-VirtualBox: ~/Desktop[01;32msinghz@singhz-VirtualBox[00m:[01;34m~/Desktop[00m$ g++ main.cpp
+]0;singhz@singhz-VirtualBox: ~/Desktop[01;32msinghz@singhz-VirtualBox[00m:[01;34m~/Desktop[00m$ ls
+[0m[01;32ma.out[0m  main.cpp
+]0;singhz@singhz-VirtualBox: ~/Desktop[01;32msinghz@singhz-VirtualBox[00m:[01;34m~/Desktop[00m$ ./a.out
+Enter a URL to check for validity: 
+https://cs.utdallas.edu:80/directory/faculty/people.html?name=Robert
+ 
+https://cs.utdallas.edu:80/directory/faculty/people.html?name=Robert
+ 
+Protocol:   https
+Domain:     cs.utdallas.edu
+Port:       80
+Filepath:   /directory/faculty/people.html
+Parameters: name=Robert
+]0;singhz@singhz-VirtualBox: ~/Desktop[01;32msinghz@singhz-VirtualBox[00m:[01;34m~/Desktop[00m$ httpz://cs.utdallas.edu:80000/people.html?namme=Robert
+bash: httpz://cs.utdallas.edu:80000/people.html?name=Robert: No such file or directory
+]0;singhz@singhz-VirtualBox: ~/Desktop[01;32msinghz@singhz-VirtualBox[00m:[01;34m~/Desktop[00m$ httpz://cs.utdallas.edu:80000/people.html?namme=Robert[A]0;singhz@singhz-VirtualBox: ~/Desktop[01;32msinghz@singhz-VirtualBox[00m:[01;34m~/Desktop[00m$ ./a.out[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Enter a URL to check for validity: 
+httpz://cs.utdallas.edu:80000/people.html?name=Robert
+ 
+httpz://cs.utdallas.edu:80000/people.html?name=Robert
+ 
+Invalid URL with following erroneous components:
+Protocol:    httpz is not a valid protocol.
+Port:        port number must be between 1 and 65535.
+]0;singhz@singhz-VirtualBox: ~/Desktop[01;32msinghz@singhz-VirtualBox[00m:[01;34m~/Desktop[00m$ ./a.outhttpz://cs.utdallas.edu:80000/people.html?namme=Robert[A]0;singhz@singhz-VirtualBox: ~/Desktop[01;32msinghz@singhz-VirtualBox[00m:[01;34m~/Desktop[00m$ ./a.out[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Enter a URL to check for validity: 
+https://cs.utdallas.adu:80/people.html?name=Robert
+ 
+https://cs.utdallas.adu:80/people.html?name=Robert
+ 
+Invalid URL with following erroneous components:
+Domain:    adu is an invalid domain name.
+]0;singhz@singhz-VirtualBox: ~/Desktop[01;32msinghz@singhz-VirtualBox[00m:[01;34m~/Desktop[00m$ cd
+]0;singhz@singhz-VirtualBox: ~[01;32msinghz@singhz-VirtualBox[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2020-02-02 16:25:10-0600

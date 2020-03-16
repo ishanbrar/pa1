@@ -1,0 +1,6 @@
+#This is another comment
+
+all:
+	g++ main.cpp -o yo
+	./yo
+compile:

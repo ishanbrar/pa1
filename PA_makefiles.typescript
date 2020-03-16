@@ -1,0 +1,805 @@
+Script started on Sun Mar 15 22:05:59 2020
+[?1034hbash-3.2$ ls
+Documentation for  Programming Assignment 1_ “main.docx
+PA01_Ishan_Brar.zip
+PA1
+PA_makefiles.typescript
+a.out
+main.cpp
+makefile.pa1
+x
+yo
+bash-3.2$ cat makefile.pa1 
+all:
+	g++ main.cpp -o yo
+	./yo
+compile:
+bash-3.2$ cd ..
+bash-3.2$ ls
+Makefiles_codeproject.typescript	PA02_Ishan_Brar
+PA01_<Ishan>_<Brar>.zip			make_samples
+bash-3.2$ cd pa[K[KPA02_Ishan_Brar/
+bash-3.2$ ls
+Documentation for  Programming Assignment 2_ Using pipes.docx
+PA_makefiles.typescript
+filecnt
+filecnt.cpp
+filedisp
+filedisp.cpp
+makefile.pa2
+proj2IshanBrar.scriptout
+bash-3.2$ cat makefile.pa2 
+all:
+	g++ filecnt.cpp -o filecnt | g++ filedisp.cpp -o filedisp
+	./filecnt /usr/share | ./filedisp -d
+compile:
+bash-3.2$ cd ..
+bash-3.2$ cd ..at makefile.pa2 [C[C[C[C[C[C[C[C[C[Cls[Kcd PA02_Ishan_Brar/[C[C[C[C[C[C[C[C[C[Cls[Kcd ..at makefile.pa1 [C[C[C[C[C[C[C[C[C[Cls[Kexitxitscript Makefiles_codeproject.typescript[C[C[C[C[C[C[C[C[C[Cexxit[K[1Pit[2Plscat makefile.pa1 [C[C[C[C[C[C[C[C[C[C[Cd ..[K[3Plscd PA02_Ishan_Brar/[C[C[C[C[C[C[C[C[C[Cls[Kcat makefile.pa2 [C[C[C[C[C[C[C[C[C[C[Cd ..[K[KPA01_\<Ishan\>_\<Brar\>.zip/
+bash-3.2$ make -f makefile.p1[Kq1[K[Ka1
+g++ main.cpp -o yo
+./yo
+Enter a URL to check for validity: 
+url   http    ^Cmake: *** [all] Interrupt: 2
+
+bash-3.2$ cd ..
+bash-3.2$ ls
+Makefiles_codeproject.typescript	PA02_Ishan_Brar
+PA01_<Ishan>_<Brar>.zip			make_samples
+bash-3.2$ cd PA02_Ishan_Brar/
+bash-3.2$ ls
+Documentation for  Programming Assignment 2_ Using pipes.docx
+PA_makefiles.typescript
+filecnt
+filecnt.cpp
+filedisp
+filedisp.cpp
+makefile.pa2
+proj2IshanBrar.scriptout
+bash-3.2$ cd[K[Kmake -f makefile.pa2 
+g++ filecnt.cpp -o filecnt | g++ filedisp.cpp -o filedisp
+./filecnt /usr/share | ./filedisp -d
+The total number of directories in directory /usr/share is: 729 
+bash-3.2$ vi [Km makefile.pa2 
+[?2004h[?1049h[?1h=[?2004h[1;24r[?12h[?12l[27m[29m[m[H[2J[?25l[24;1H"makefile.pa2" 4L, 111C[2;1H▽[6n[2;1H  [1;1H[>c]11;?[1;1Hall:[2;9Hg++ filecnt.cpp -o filecnt | g++ filedisp.cpp -o filedisp[3;9H./filecnt /usr/share | ./filedisp -d
+compile:
+[94m~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?25l[m[24;1H[1m-- INSERT --[m[24;13H[K[1;1H[?25h[?25l[2;23r[2;1H[L[1;24r[1;1H[K[2;1Hall:[?25h[1;1H[?25l#[?25h[?25lt[?25h[?25lh[?25h[?25li[?25h[?25ls[?25h[?25l [?25h[?25li[?25h[?25ls[?25h[?25l [?25h[?25la[?25h[?25l [?25h[?25lc[?25h[?25lo[?25h[?25lm[?25h[?25lm[?25h[?25le[?25h[?25ln[?25h[?25lt[?25h[24;1H[K[1;18H[?25l[?25h[?2004l[?25l[24;1H"makefile.pa2" 5L, 130C written
+[?2004l[?1l>[?25h[?1049lbash-3.2$ cat makefile.pa2 
+#this is a comment
+all:
+	g++ filecnt.cpp -o filecnt | g++ filedisp.cpp -o filedisp
+	./filecnt /usr/share | ./filedisp -d
+compile:
+bash-3.2$ cat makefile.pa2 [C[C[C[C[C[C[C[C[C[Cvim[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4@make -f[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+g++ filecnt.cpp -o filecnt | g++ filedisp.cpp -o filedisp
+./filecnt /usr/share | ./filedisp -d
+The total number of directories in directory /usr/share is: 729 
+bash-3.2$ cd ..
+bash-3.2$ cd p[KPA01_\<Ishan\>_\<Brar\>.zip/
+bash-3.2$ vim makefile.pa1 
+[?2004h[?1049h[?1h=[?2004h[1;24r[?12h[?12l[27m[29m[m[H[2J[?25l[24;1H"makefile.pa1" 4L, 40C[2;1H▽[6n[2;1H  [1;1H[>c]11;?[1;1Hall:[2;9Hg++ main.cpp -o yo[3;9H./yo
+compile:
+[94m~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?25l[m[24;1H[1m-- INSERT --[m[24;13H[K[1;1H[?25h[?25l[2;23r[2;1H[L[1;24r[1;1H[K[2;1Hall:[?25h[?25l[3;23r[3;1H[L[1;24r[2;1H[K[3;1Hall:[?25h[2;1H[1;1H[?25l#[?25h[?25lT[?25h[?25lh[?25h[?25li[?25h[?25ls[?25h[?25l [?25h[?25li[?25h[?25la[?25h[?25l [?25h[?25l[?25h[?25l[1;8H[K[1;8H[?25h[?25ls[?25h[?25l [?25h[?25la[?25h[?25ln[?25h[?25lo[?25h[?25lt[?25h[?25lh[?25h[?25le[?25h[?25lr[?25h[?25l [?25h[?25lc[?25h[?25lo[?25h[?25lm[?25h[?25lm[?25h[?25le[?25h[?25ln[?25h[?25lt[?25h[24;1H[K[1;24H[?25l[?25h[?2004l[?25l[24;1H"makefile.pa1" 6L, 66C written
+[?2004l[?1l>[?25h[?1049lbash-3.2$ vim makefile.pa1 [C[C[C[C[C[C[C[C[C[Ccd PA01_\<Ishan\>_\<Brar\>.zip/[C[C[C[C[C[C[C[C[C[C[C[C[C..[KPA01_\<Ishan\>_\<Brar\>.zip/[C[C[C[C[C[C[C[C[C[C[14Pvim makefile.pa1 [C[C[C[C[C[C[C[C[C[C[Kcat makefile.pa1 
+#This is another comment
+
+all:
+	g++ main.cpp -o yo
+	./yo
+compile:
+bash-3.2$ make f[K-f makefile.pa1 
+g++ main.cpp -o yo
+./yo
+Enter a URL to check for validity: 
+^Cmake: *** [all] Interrupt: 2
+
+bash-3.2$ cd
+bash-3.2$ cd 
+bash-3.2$ cd z
+bash-3.2$ ls
+Makefiles_codeproject.typescript	PA02_Ishan_Brar
+PA01_<Ishan>_<Brar>.zip			make_samples
+bash-3.2$ cd PA01_\<Ishan\>_\<Brar\>.zip/
+bash-3.2$ ls
+Documentation for  Programming Assignment 1_ “main.docx
+PA01_Ishan_Brar.zip
+PA1
+PA_makefiles.typescript
+a.out
+main.cpp
+makefile.pa1
+x
+yo
+bash-3.2$ vim  [Kversion.cpp
+[?2004h[?1049h[?1h=[?2004h[1;24r[?12h[?12l[27m[29m[m[H[2J[?25l[24;1H"version.cpp" [New File][2;1H▽[6n[2;1H  [1;1H[>c]11;?[2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?25l[m[24;1H[1m-- INSERT --[m[24;13H[K[1;1H[?25h[?25l#include <iostream>
+#include <vector>[2;18H[K[3;1H[K[4;1Husing namespace std[4;20H[K[4;20H[?25h[?25l;[5;1H[K[6;1Hint main()[6;11H[K[7;1H{[7;2H[K[8;1H    //variables fo[8;19H[K[8;19H[?25h[?25l[8;18H[K[8;18H[?25h[?25l[8;17H[K[8;17H[?25h[?25l[?25h[?25l[8;15H[K[8;15H[?25h[?25l[8;14H[K[8;14H[?25h[?25l[8;13H[K[8;13H[?25h[?25l[8;12H[K[8;12H[?25h[?25l[8;11H[K[8;11H[?25h[?25l[8;10H[K[8;10H[?25h[?25l[8;9H[K[8;9H[?25h[?25l[8;8H[K[8;8H[?25h[?25l[8;7H[K[8;7H[?25h[?25l[8;6H[K[8;6H[?25h[?25l[8;5H[K[8;5H[?25h[7;2H[6;5Hmai[?25ln[106m()[?25h[?25l([?25h[?25l)[?25h[?25l[m([6;10H[K[6;10H[?25h[?25l[6;9H[K[6;9H[?25h[?25l[6;8H[K[6;8H[?25h[?25l[6;7H[K[6;7H[?25h[?25l[6;6H[K[6;6H[?25h[?25l[6;5H[K[6;5H[?25h[?25l[?25h[?25l[6;3H[K[6;3H[?25h[?25l[6;2H[K[6;2H[?25h[?25l[6;1H[K[6;1H[?25h[?25l[5;23r[23;1H
+[1;24r[23;1H[94m~                                                                               [5;1H[?25h[?25l[6;23r[m[6;1H[L[1;24r[6;1H[?25h[?25lv[?25h[?25lo[?25h[?25li[?25h[?25ld[?25h[?25l [?25h[?25ld[?25h[?25li[?25h[?25ls[?25h[?25lp[?25h[?25ll[?25h[?25la[?25h[?25ly[?25h[?25lV[?25h[?25le[?25h[?25lr[?25h[?25ls[?25h[?25li[?25h[?25lo[?25h[?25ln[?25h[?25l([?25h[?25l[106m()[?25h[?25l[m()[5;1H[?25h[?25l[6;20H[106m()[?25h[?25l[m()
+{[?25h
+    [?25ls[?25h[?25ly[?25h[?25ls[?25h[?25l[8;7H[K[8;7H[?25h[?25l[8;6H[K[8;6H[?25h[?25l[8;5H[K[8;5H[?25h[?25lc[?25h[?25lo[?25h[?25lu[?25h[?25lt[?25h[?25l [?25h[?25l<[?25h[?25l<[?25h[?25l [?25h[?25lv[?25h[?25le[?25h[?25lr[?25h[?25ls[?25h[?25li[?25h[?25lo[?25h[?25ln[?25h[?25l [?25h[?25l[?25h[?25l[8;19H[K[8;19H[?25h[?25l[8;18H[K[8;18H[?25h[?25l[8;17H[K[8;17H[?25h[?25l[8;16H[K[8;16H[?25h[?25l[8;15H[K[8;15H[?25h[?25l[8;14H[K[8;14H[?25h[?25l[8;13H[K[8;13H[?25h[?25l[?25h[?25l [?25h[?25lC[?25h[?25lu[?25h[?25lr[?25h[?25lr[?25h[?25le[?25h[?25ln[?25h[?25lt[?25h[?25l [?25h[?25lv[?25h[?25le[?25h[?25lr[?25h[?25ls[?25h[?25li[?25h[?25lo[?25h[?25ln[?25h[?25l [?25h[?25li[?25h[?25ls[?25h[?25l [?25h[?25l<[?25h[?25l<[?25h[?25l[8;33H[K[8;33H[?25h[?25l[8;32H[K[8;32H[?25h[?25l[?25h[?25l[8;30H[K[8;30H[?25h[?25l[8;29H[K[8;29H[?25h[?25l[?25h[?25l[8;27H[K[8;27H[?25h[?25l[8;26H[K[8;26H[?25h[?25l[8;25H[K[8;25H[?25h[?25l[8;24H[K[8;24H[?25h[?25l[8;23H[K[8;23H[?25h[?25l[8;22H[K[8;22H[?25h[?25l[8;21H[K[8;21H[?25h[?25l[?25h[?25l[8;19H[K[8;19H[?25h[?25l[8;18H[K[8;18H[?25h[?25l[8;17H[K[8;17H[?25h[?25l[8;16H[K[8;16H[?25h[?25l[8;15H[K[8;15H[?25h[?25l[8;14H[K[8;14H[?25h[?25l[8;13H[K[8;13H[?25h[?25l"[?25h[?25l [?25h[?25l[?25h[?25lC[?25h[?25lu[?25h[?25lr[?25h[?25lr[?25h[?25le[?25h[?25ln[?25h[?25lt[?25h[?25l [?25h[?25lv[?25h[?25le[?25h[?25lr[?25h[?25ls[?25h[?25li[?25h[?25lo[?25h[?25ln[?25h[?25l [?25h[?25li[?25h[?25ls[?25h[?25l [?25h[?25l[?25h[?25l:[?25h[?25l [?25h[?25l"[?25h[?25l [?25h[?25l<[?25h[?25l<[?25h[?25l [?25h[7;2H[?25l[6;20H[106m()[?25h[?25l[m()\[?25h[?25l[106m()[m[6;22H[K[6;22H[?25h[?25l([6;21H[K[6;21H[?25h[?25lv[?25h[?25le[?25h[?25lr[?25h[?25ls[?25h[?25li[?25h[?25lo[?25h[?25lm[?25h[?25l[6;27H[K[6;27H[?25h[?25ln[?25h[?25l[6;27H[K[6;27H[?25h[?25l[6;26H[K[6;26H[?25h[?25l[6;25H[K[6;25H[?25h[?25l[6;24H[K[6;24H[?25h[?25l[6;23H[K[6;23H[?25h[?25l[6;22H[K[6;22H[?25h[?25l[6;21H[K[6;21H[?25h[?25ls[?25h[?25lt[?25h[?25lr[?25h[?25li[?25h[?25ln[?25h[?25lg[?25h[?25l [?25h[?25lv[?25h[?25le[?25h[?25lr[?25h[?25ls[?25h[?25li[?25h[?25lo[?25h[?25ln[?25h[?25l[6;20H[106m([14C)[?25h[?25l[m[6;20H([14C)
+{[?25h[8;36H<< [?25lv[?25h[?25le[?25h[?25lr[?25h[?25ls[?25h[?25li[?25h[?25lo[?25h[?25ln[?25h[?25l [?25h[?25l<[?25h[?25l<[?25h[?25l [?25h[?25le[?25h[?25ln[?25h[?25ld[?25h[?25ll[?25h[?25l;[?25h[?25l[9;1H[K[9;1H[?25h[?25l[10;1H[K[10;1H[?25h[?25l[7;1H[106m{
+
+
+}[?25h[?25l[m[7;1H{
+
+
+}[11;1H[K[11;1H[?25h[24;1H[K[11;1H[?25l[?25h[?2004l[?25l[24;1H"version.cpp" [New] 11L, 158C written
+[?2004l[?1l>[?25h[?1049lbash-3.2$ vim main.cpp
+[?2004h[?1049h[?1h=[?2004h[1;24r[?12h[?12l[27m[29m[m[H[2J[?25l[24;1H"main.cpp" 138L, 3860C[2;1H▽[6n[2;1H  [1;1H[>c]11;?[1;1H//
+//  main.cpp
+//  CS3377 Program
+// Checks for the validity of a URL.
+//
+//  Created by Ishan Brar on 2/1/20.
+//  Copyright © 2020 Ishan Brar. All rights reserved.
+//
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+int main()
+{
+    //variables for length of the URL and location of first breakpoint
+    int protocolnum;
+    int length;[20;5H//prompt URL from user
+    cout<< "Enter a URL to check for validity: " << endl;
+    std::string url;[1;1H[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[1;1H[?25h
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[?25l[8C[?25h[?25l[?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25ls[?25h[?25lt[?25h[?25lr[?25h[?25li[?25h[?25ln[?25h[?25lg[?25h[?25l [?25h[20;12H[21;12H[22;12H
+    [?25l[1;23r[23;1H
+[1;24r[23;5H//Get URl from user[23;12H[1;23r[23;1H
+[1;24r[23;5Hgetline[106m([mcin, url[106m)[m;[23;12H[?25h[?25l[1;23r[23;1H
+[1;24r[22;12H([8C)
+    length = url.length();[23;12H[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H// Breakpoints for each segment of the URl[23;12H[?25h[?25l[1;23r[23;1H
+[1;24r[23;5Hstd::string delimiter1 = "://";[23;12H[?25h[?25l[1;23r[23;1H
+[1;24r[23;5Hstd::string delimiter2 = ":";[23;12H[?25h[?25l[1;23r[23;1H
+[1;24r[23;5Hstd::string delimiter3 = "/";[23;12H[?25h[?25l[1;23r[23;1H
+[1;24r[23;5Hstd::string delimiter4 = "?";[23;12H[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H//Blank line for clarity[23;12H[?25h[?25l[1;23r[23;1H
+[1;24r[23;5Hcout<< " " << endl;[23;12H[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H//Segmentation of protocol[23;12H[?25h[?25l[1;23r[23;1H
+[1;24r[23;5Hstd::string protocol = url.substr(0, url.find(delimiter1));[23;12H[1;23r[23;1H
+[1;24r[23;5Hprotocolnum = url.find(delimiter1);[23;12H[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H[?25h[22;12H[21;12H[20;12H[19;5H[18;12H[17;12H[16;5H[15;12H[14;12H[13;12H[12;12H[11;12H[10;5H[9;12H[?25l[8;12H[106m([8C)[8;12H[?25h[?25l[m([8C)[7;12H[?25h[6;5H[5;12H[3;12H[1;12H[?25l[1;23r[1;1H[L[1;24r[1;5Hint protocolnum;[1;12H[1;23r[1;1H[L[1;24r[1;5H//variables for length of the URL and location of first breakpoint[1;12H[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H{[?25h[?25l[1;23r[1;1H[L[1;24r[1;1Hint main[106m()[?25h[?25l[1;23r[m[1;1H[L[1;24r[2;9H()[1;1H[?25h[?25l[1;23r[1;1H[L[1;24r[1;1Husing namespace std;[1;12H[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H#include <vector>[?25h
+[3;12H
+[?25l[5;9H[106m()[?25h[?25l[m()[7;12H[?25h[8;12H[9;12H[10;12H[11;12H[10;12H[?25l[?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25lt[?25h[?25ld[?25h[?25l:[?25h[?25l:[?25h[?25ls[?25h[?25lt[?25h[?25lr[?25h[?25li[?25h[?25ln[?25h[?25lg[?25h[?25l [?25h[?25lv[?25h[?25le[?25h[?25lr[?25h[?25ls[?25h[?25li[?25h[?25lo[?25h[?25ln[?25h[?25l [?25h[?25l=[?25h[?25l [?25h[?25l"[?25h[?25l1[?25h[?25l.[?25h[?25l2[?25h[?25l"[?25h[?25l;[?25h[?25l[11;23r[11;1H[L[1;24r[11;1H[?25h[?25l[8C[?25h[?25l[?25h[?25l[8C[?25h[?25l[?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25lv[?25h[?25le[?25h[?25lr[?25h[?25ls[?25h[?25li[?25h[?25lo[?25h[?25ln[?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25ld[?25h[?25li[?25h[?25ls[?25h[?25lp[?25h[?25ll[?25h[?25la[?25h[?25ly[?25h[?25lV[?25h[?25le[?25h[?25lr[?25h[?25ls[?25h[?25li[?25h[?25lo[?25h[?25ln[?25h[?25l([?25h[?25lv[?25h[?25le[?25h[?25lr[?25h[?25ls[?25h[?25li[?25h[?25lo[?25h[?25ln[?25h[?25l[11;19H[106m([7C)[?25h[?25l[m[11;19H([7C);[?25h[10;29H.2";[9;16H[10;33H[11;33H[10;33H[11;33H[24;1H[K[11;32H[?25l[?25h[?2004l[?25l[24;1H"main.cpp" 139L, 3921C written
+[?2004l[?1l>[?25h[?1049lbash-3.2$ vim other.h
+[?2004h[?1049h[?1h=[?2004h[1;24r[?12h[?12l[27m[29m[m[H[2J[?25l[24;1H"other.h" [New File][2;1H▽[6n[2;1H  [1;1H[>c]11;?[2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?25l[m[24;1H[1m-- INSERT --[m[24;13H[K[1;1H[?25h[?25lv[?25h[?25lo[?25h[?25li[?25h[?25ld[?25h[?25l [?25h[?25ld[?25h[?25li[?25h[?25ls[?25h[?25lp[?25h[?25ll[?25h[?25la[?25h[?25ly[?25h[?25lV[?25h[?25le[?25h[?25lr[?25h[?25ls[?25h[?25li[?25h[?25lo[?25h[?25ln[?25h[?25l([?25h[?25l[106m()[?25h[?25l[m();[?25h[24;1H[K[1;22H[?25l[?25h[?2004l[?25l[24;1H"other.h" [New] 1L, 23C written
+[?2004l[?1l>[?25h[?1049lbash-3.2$ ls
+Documentation for  Programming Assignment 1_ “main.docx
+PA01_Ishan_Brar.zip
+PA1
+PA_makefiles.typescript
+a.out
+main.cpp
+makefile.pa1
+other.h
+version.cpp
+x
+yo
+ztest
+bash-3.2$ ls[Kpwd
+/Users/singhz/z/PA01_<Ishan>_<Brar>.zip
+bash-3.2$ make[1Ppwd[1Plsvim other.hmain.cppversion.cpp[C[C[C[C[C[C[C[C[C[Cls[Kcd PA01_\<Ishan\>_\<Brar\>.zip/[C[C[C[C[C[C[C[C[C[Cls[Kcd z[K[Kmake -f makefile.pa1 [C[C[C[C[C[C[C[C[C[C[4Pcat[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4@make -f[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+g++ main.cpp -o yo
+./yo
+The current version is 1.2
+Enter a URL to check for validity: 
+^Z
+[1]+  Stopped                 make -f makefile.pa1
+bash-3.2$ cd ..
+bash-3.2$ cd PA02_Ishan_Brar/
+bash-3.2$ ls
+Documentation for  Programming Assignment 2_ Using pipes.docx
+PA_makefiles.typescript
+filecnt
+filecnt.cpp
+filedisp
+filedisp.cpp
+makefile.pa2
+proj2IshanBrar.scriptout
+bash-3.2$ lscd PA02_Ishan_Brar/[C[C[C[C[C[C[C[C[C[C[C[C[C..[KPA02_Ishan_Brar/[C[C[C[C[C[C[C[C[C[Cls[K[Kmake -f makefile.pa2
+g++ filecnt.cpp -o filecnt | g++ filedisp.cpp -o filedisp
+./filecnt /usr/share | ./filedisp -d
+The current version is 1.2 The total number of directories 
+bash-3.2$ exit
+exit
+There are stopped jobs.
+bash-3.2$ cd ..
+bash-3.2$ ls
+Makefiles_codeproject.typescript	PA02_Ishan_Brar
+PA01_<Ishan>_<Brar>.zip			make_samples
+bash-3.2$ car makef[K[K[K[K[KMakefiles_codeproject.typescript 
+bash: car: command not found
+bash-3.2$ cat Makefiles_codeproject.typescript 
+Script started on Sun Mar 15 21:03:57 2020
+[?1034hbash-3.2$ make[K[K[K[Kcd [K[K[Kls
+Makefiles_codeproject.typescript	make_samples
+bash-3.2$ cd make_samples
+bash-3.2$ make -f ,kfile.r
+make: ,kfile.r: No such file or directory
+make: *** No rule to make target `,kfile.r'.  Stop.
+bash-3.2$ make -f ,kfile.rmkfile.r[1Pmkfile.r
+make: mkfile.r: No such file or directory
+make: *** No rule to make target `mkfile.r'.  Stop.
+bash-3.2$ make -f mkfile.r[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kmake -f mkfile.r
+make: mkfile.r: No such file or directory
+make: *** No rule to make target `mkfile.r'.  Stop.
+bash-3.2$ ls
+sample1	sample2	sample3	sample4	sample5
+bash-3.2$ cd[K[Klsmake -f mkfile.r,kfile.r[C[C[C[C[C[C[C[C[C[C[1Pcd make_samples[C[C[C[C[C[C[C[C[C[Cls[Kvim script.sh[C[C[C[C[C[C[C[C[C[Cls[Kvim script.sh[C[C[C[C[C[C[C[C[C[Cls[Kcd make_samples[C[C[C[C[C[C[C[C[C[Cmake -f ,kfile.rmkfile.r[C[C[C[C[C[C[C[C[C[Cls[K[Kscript Makefiles_codeproject.typescript
+Script started, output file is Makefiles_codeproject.typescript
+[?1034hbash-3.2$ cd sample1
+bash-3.2$ ls
+app.c		inc_a.h		mkfile.r	mkfile.w
+bash-3.2$ lscd sample1vim script.sh[C[C[C[C[C[C[C[C[C[Cls[Kvim script.sh[C[C[C[C[C[C[C[C[C[C[3Pcd sample1ls[K[K a[Kmake -f mkfile.r
+cc -o app app.c
+bash-3.2$ ./app
+
+Hello World!
+bash-3.2$ rm - f[K[Kf app
+bash-3.2$ make -f mkfile.w
+cc -o app app.c
+bash-3.2$ ./app
+
+Hello World!
+bash-3.2$ make -f mkfile.r
+make: `app' is up to date.
+bash-3.2$ make -f mkfile.r[K3[Kw
+make: `app' is up to date.
+bash-3.2$ touch inc_a.h
+bash-3.2$ make -f mkfile.w
+make: `app' is up to date.
+bash-3.2$ make -f mkfile.w[C[C[C[C[C[C[C[C[C[C[3Ptouch inc_a.h[C[C[C[C[C[C[C[C[C[Cmake -f mkfile.wr
+cc -o app app.c
+bash-3.2$ touch app.c
+bash-3.2$ make -f mkfile.r
+cc -o app app.c
+bash-3.2$ ./app
+
+Hello World!
+bash-3.2$ pwd
+/Users/singhz/z/make_samples/sample1
+bash-3.2$ cd ..
+bash-3.2$ ls
+Makefiles_codeproject.typescript	sample3
+sample1					sample4
+sample2					sample5
+bash-3.2$ cd sample2
+bash-3.2$ ls
+inc_a.h		main.c		mkfile.w	mod_b.c
+inc_b.h		mkfile.r	mod_a.c
+bash-3.2$ mka[K[Kake -f mkfile.w
+cc -c main.c 
+bash-3.2$ rm -f * ,[K.o
+bash-3.2$ make -f mkfile.r
+make: mkfile.r: No such file or directory
+make: *** No rule to make target `mkfile.r'.  Stop.
+bash-3.2$ make -f mkfile.r[C[C[C[C[C[C[C[C[C[C[6Prm -f * .o[K[K[K[K.[K*.o
+bash-3.2$ rm -f *.omake -f mkfile.r
+make: mkfile.r: No such file or directory
+make: *** No rule to make target `mkfile.r'.  Stop.
+bash-3.2$ ls
+bash-3.2$ cd ..
+bash-3.2$ ls
+Makefiles_codeproject.typescript	sample3
+sample1					sample4
+sample2					sample5
+bash-3.2$ cd sample2
+bash-3.2$ ls
+bash-3.2$ lscd sample2ls[Kcd ..[3Plsmake -f mkfile.r[C[C[C[C[C[C[C[C[C[C[7Prm -f *.omake -f mkfile.r[C[C[C[C[C[C[C[C[C[C[7Prm -f *.omake -f mkfile.r[C[C[C[C[C[C[C[C[C[Cls[Kcd ..[3Plscd sample2ls[K[Kls
+inc_a.h		main.c		mkfile.w	mod_b.c
+inc_b.h		mkfile.r	mod_a.c
+bash-3.2$ lscd sample2ls[Kcd ..[3Plsmake -f mkfile.r[C[C[C[C[C[C[C[C[C[C[7Prm -f *.o
+bash-3.2$ rm -f *.ols[Kcd sample2ls[Kcd sample2ls[Kcd ..[3Plsmake -f mkfile.r
+cc -c main.c 
+cc -c mod_a.c
+cc -c mod_b.c
+cc -o app main.o mod_a.o mod_b.o
+bash-3.2$ ./app
+
+Hello, I m func_a!
+
+Hello, I m func_b!
+bash-3.2$ rm -f *.oma[K[K app
+bash-3.2$ male[K[Kke -f mkfile.w app
+cc -c main.c 
+cc -c mod_a.c
+cc -c mod_b.c
+cc -o app main.o mod_a.o mod_b.o
+bash-3.2$ ./app
+
+Hello, I m func_a!
+
+Hello, I m func_b!
+bash-3.2$ cd ..
+bash-3.2$ cd sample3
+bash-3.2$ ls
+bin		main.c		mod_a.c		obj
+include		makefile	mod_b.c
+bash-3.2$ make
+mv ./obj/*.o . 2>/dev/null
+make: [getobj] Error 1 (ignored)
+cc -g -Wall -I./include -c main.c 
+cc -g -Wall -I./include -c mod_a.c
+cc -g -Wall -I./include -c mod_b.c
+cc -g -Wall -I./include -o app main.o mod_a.o mod_b.o
+mv *.o ./obj 2>/dev/null
+bash-3.2$ make
+mv ./obj/*.o . 2>/dev/null
+mv *.o ./obj 2>/dev/null
+bash-3.2$ touch include/imc[K[Knc_a.h
+bash-3.2$ make
+mv ./obj/*.o . 2>/dev/null
+cc -g -Wall -I./include -c main.c 
+cc -g -Wall -I./include -c mod_a.c
+cc -g -Wall -I./include -o app main.o mod_a.o mod_b.o
+mv *.o ./obj 2>/dev/null
+bash-3.2$ ls -ltr ./bin
+total 8
+-rw-r--r--@ 1 singhz  staff  26 Dec  1  2008 delete-me.txt
+bash-3.2$ male[K[Kke cleanall
+rm -f app
+rm -f ./obj/*.o
+rm -f ./bin/myapp
+bash-3.2$ cd ..
+bash-3.2$ cd sample3[K4
+bash-3.2$ make -f ma[Kkfile1
+make: *** No targets.  Stop.
+bash-3.2$ make -f mkfile1 main.o
+cc -c main.c	
+bash-3.2$ ma\[K[K[Kmake -f mkfile1 main.o[K[K[K[K[Kof[Kd)a[K[K_a.o ,od [K[K[K[Kmod_b.o
+cc -c mod_a.c	
+cc -c mod_b.c	
+bash-3.2$ make -f mkfile [K1 main.o mod_a.o mod_b.o
+make: `main.o' is up to date.
+make: `mod_a.o' is up to date.
+make: `mod_b.o' is up to date.
+bash-3.2$ ls 
+inc_a.h	main.c	mkfile1	mkfile3	mod_a.c	mod_b.c
+inc_b.h	main.o	mkfile2	mkfile4	mod_a.o	mod_b.o
+bash-3.2$ ls -ltr >file.x[Kxt[K[Ktxt
+bash-3.2$ ls -ltr file*
+-rw-r--r--  1 singhz  staff  710 Mar 15 21:20 file.txt
+bash-3.2$ make -f mkfile2 file.log
+Converting  file.txt  to  file.log
+mv file.txt file.log
+bash-3.2$ ls -ltr file*
+-rw-r--r--  1 singhz  staff  710 Mar 15 21:20 file.log
+bash-3.2$ make -f mkfile3
+Building target app ...
+cc -o app main.o mod_a.o mod_b.o
+bash-3.2$ make -f mkfile3
+make: `app' is up to date.
+bash-3.2$ touch main.c
+bash-3.2$ make -f mkfile3
+Compiling main.c ...
+cc -c main.c
+Building target app ...
+cc -o app main.o mod_a.o mod_b.o
+bash-3.2$ make -f mkfile3
+make: `app' is up to date.
+bash-3.2$ touch inc_a.h
+bash-3.2$ make -f mkfile3
+make: `app' is up to date.
+bash-3.2$ rm -f *.o app
+bash-3.2$ make -f mkfile4
+Compiling main.c ...
+cc -c main.c
+Compiling mod_a.c ...
+cc -c mod_a.c
+Compiling mod_b.c ...
+cc -c mod_b.c
+Building target app ...
+cc -o app main.o mod_a.o mod_b.o
+bash-3.2$ touch mod_a.c
+bash-3.2$ make -f mkfile 4
+make: mkfile: No such file or directory
+make: *** No rule to make target `mkfile'.  Stop.
+bash-3.2$ make -f mkfile 4[K[K4
+Compiling mod_a.c ...
+cc -c mod_a.c
+Building target app ...
+cc -o app main.o mod_a.o mod_b.o
+bash-3.2$ touch inc_a.h
+bash-3.2$ make -f mkfile4
+Compiling main.c ...
+cc -c main.c
+Compiling mod_a.c ...
+cc -c mod_a.c
+Compiling mod_b.c ...
+cc -c mod_b.c
+Building target app ...
+cc -o app main.o mod_a.o mod_b.o
+bash-3.2$ cd ..
+bash-3.2$ cd sample5
+bash-3.2$ ls
+application	makefile	runmk		tstlib
+bash-3.2$ ./runmk
+****** Invoking tstlib/makefile
+(cd tstlib; /Applications/Xcode.app/Contents/Developer/usr/bin/make)
+cc -Wall -I. -c tstlib_a.c
+cc -Wall -I. -c tstlib_b.c
+ar cr tlib.a tstlib_a.o tstlib_b.o
+****** Invoking application/makefile
+(cd application; /Applications/Xcode.app/Contents/Developer/usr/bin/make)
+cc -Wall -I. -I../tstlib  -c main.c
+cc -Wall -I. -I../tstlib  -c mod_a.c
+cc -Wall -I. -I../tstlib  -c mod_b.c
+cc -Wall -I. -I../tstlib  -o app main.o mod_a.o mod_b.o ../tstlib/tlib.a
+Nothing done!
+bash-3.2$ touch tstlib/tstlib_b.c
+bash-3.2$ ./runmk
+****** Invoking tstlib/makefile
+(cd tstlib; /Applications/Xcode.app/Contents/Developer/usr/bin/make)
+cc -Wall -I. -c tstlib_b.c
+ar cr tlib.a tstlib_a.o tstlib_b.o
+****** Invoking application/makefile
+(cd application; /Applications/Xcode.app/Contents/Developer/usr/bin/make)
+cc -Wall -I. -I../tstlib  -o app main.o mod_a.o mod_b.o ../tstlib/tlib.a
+Nothing done!
+bash-3.2$ touc [Kh aa[Kpplication/inc_a.h
+bash-3.2$ ./runmk
+****** Invoking tstlib/makefile
+(cd tstlib; /Applications/Xcode.app/Contents/Developer/usr/bin/make)
+make[1]: `tlib.a' is up to date.
+****** Invoking application/makefile
+(cd application; /Applications/Xcode.app/Contents/Developer/usr/bin/make)
+cc -Wall -I. -I../tstlib  -c main.c
+cc -Wall -I. -I../tstlib  -c mod_a.c
+cc -Wall -I. -I../tstlib  -c mod_b.c
+cc -Wall -I. -I../tstlib  -o app main.o mod_a.o mod_b.o ../tstlib/tlib.a
+Nothing done!
+bash-3.2$ ./runk clean[K[K[K[K[K[K[Kml[Kl [K[Kk cleanall
+rm -f app
+****** Invoking tstlib/makefile
+rm -f *.o *.a
+****** Invoking appl/makefile
+rm -f *.o app
+bash-3.2$ exit
+exit
+
+Script done, output file is Makefiles_codeproject.typescript
+bash-3.2$ ls
+Makefiles_codeproject.typescript	sample3
+sample1					sample4
+sample2					sample5
+bash-3.2$ cd
+bash-3.2$ cd z
+bash-3.2$ ls
+Makefiles_codeproject.typescript	PA02_Ishan_Brar
+PA01_<Ishan>_<Brar>.zip			make_samples
+bash-3.2$ cd PA01_<Ishan>_<Brar>.zip
+bash: Ishan: No such file or directory
+bash-3.2$ cd PA02_Ishan_Brar/
+bash-3.2$ CD[K[Kls
+Documentation for  Programming Assignment 2_ Using pipes.docx
+filecnt
+filecnt.cpp
+filedisp
+filedisp.cpp
+proj2IshanBrar.scriptout
+bash-3.2$ cd ..
+bash-3.2$ cd PA01_\<Ishan\>_\<Brar\>.zip/
+bash-3.2$ LS
+Documentation for  Programming Assignment 1_ “main.docx
+PA01_Ishan_Brar.zip
+PA1
+a.out
+main.cpp
+bash-3.2$ touch MAke[K[K[Kakefile
+bash-3.2$ vim Makefile
+[?2004h[?1049h[?1h=[?2004h[1;24r[?12h[?12l[27m[29m[m[H[2J[?25l[24;1H"Makefile" 0L, 0C[2;1H▽[6n[2;1H  [1;1H[>c]11;?[2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?25l[m[24;1H[1m-- INSERT --[m[24;13H[K[1;1H[?25h[?25l[2;1H[K[2;1H[?25h[?25l[94m~                                                                               [1;1H[?25h[?25l[ma[?25h[?25ll[?25h[?25ll[?25h[?25l:[?25h[?25l[2;1H[K[2;1H[?25h[?25l[8C[?25h[?25lg[?25h[?25l+[?25h[?25l+[?25h[?25l [?25h[?25lm[?25h[?25la[?25h[?25li[?25h[?25ln[?25h[?25l.[?25h[?25lc[?25h[?25lp[?25h[?25lp[?25h[?25l [?25h[?25l-[?25h[?25lo[?25h[?25l [?25h[?25ly[?25h[?25lo[?25h[?25l[3;1H[K[3;1H[?25h[24;1H[K[3;1H[?25l[?25h[?2004l[?25l[24;1H"Makefile" 3L, 26C written
+[?2004l[?1l>[?25h[?1049lbash-3.2$ make
+g++ main.cpp -o yo
+bash-3.2$ 
+bash-3.2$ 
+bash-3.2$ 
+bash-3.2$ makevim Makefile[C[C[C[C[C[C[C[C[C[C[2@touch[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Pvim[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pmake[Kmakevim Makefile[C[C[C[C[C[C[C[C[C[C[8Pmake
+g++ main.cpp -o yo
+bash-3.2$ 
+bash-3.2$ make[Kvim Mal[K[Kkefile
+[?2004h[?1049h[?1h=[?2004h[1;24r[?12h[?12l[27m[29m[m[H[2J[?25l[24;1H"Mkefile" [New File][2;1H▽[6n[2;1H  [1;1H[>c]11;?[2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[24;1H[?2004l[m[24;1H[K[24;1H[?2004l[?1l>[?1049lbash-3.2$ vim Mkefile[7Pmakevim Makefile[C[C[C[C[C[C[C[C[C[C[2@touch[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Pvim[C[C[C[C[C[C[C[C[C
+[?2004h[?1049h[?1h=[?2004h[1;24r[?12h[?12l[27m[29m[m[H[2J[?25l[24;1H"Makefile" 3L, 26C[2;1H▽[6n[2;1H  [1;1H[>c]11;?[1;1Hall:[2;9Hg++ main.cpp -o yo
+
+[94m~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?25l[m[24;1H[1m-- INSERT --[m[24;13H[K[1;1H[?25h
+
+[?25lc[?25h[?25lo[?25h[?25lm[?25h[?25lp[?25h[?25li[?25h[?25ll[?25h[?25le[?25h[?25l:[?25h[24;1H[K[3;8H[?25l[?25h[?2004l[?25l[24;1H"Makefile" 3L, 34C written
+[?2004l[?1l>[?25h[?1049lbash-3.2$ vim Makefile[1Pkefile[7Pmake
+g++ main.cpp -o yo
+bash-3.2$ 
+bash-3.2$ 
+bash-3.2$ 
+bash-3.2$ 
+bash-3.2$ 
+bash-3.2$ 
+bash-3.2$ makevim Makefile
+[?2004h[?1049h[?1h=[?2004h[1;24r[?12h[?12l[27m[29m[m[H[2J[?25l[24;1H"Makefile" 3L, 34C[2;1H▽[6n[2;1H  [1;1H[>c]11;?[1;1Hall:[2;9Hg++ main.cpp -o yo
+compile:
+[94m~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                          ^[[>1;95;0c                                     [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[2;8H[m g++[?25l[24;1H[1m-- INSERT --[m[24;13H[K[3;23r[3;1H[L[1;24r[3;1H[?25h[2;1H[8Cg++[?25l main.cpp -o yo[2;26H[K[2;11H[?25h[?25l main.cpp -o yo[2;25H[K[2;10H[?25h[?25lc main.cpp -o yo[2;11H[?25h[?25lc main.cpp -o yo[2;12H[?25h[24;1H[K[2;11H[?25l[?25h[?2004l[?25l[24;1H"Makefile" 4L, 35C written
+[?2004l[?1l>[?25h[?1049lbash-3.2$ vim Makefile[C[C[C[C[C[C[C[C[C[C[8Pmakevim Makefile[C[C[C[C[C[C[C[C[C[C[8Pmake
+gcc main.cpp -o yo
+
+Undefined symbols for architecture x86_64:
+  "std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::compare(unsigned long, unsigned long, char const*, unsigned long) const", referenced from:
+      bool std::__1::operator==<char, std::__1::char_traits<char>, std::__1::allocator<char> >(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, char const*) in main-66d34c.o
+  "std::__1::locale::use_facet(std::__1::locale::id&) const", referenced from:
+      std::__1::ctype<char> const& std::__1::use_facet<std::__1::ctype<char> >(std::__1::locale const&) in main-66d34c.o
+  "std::__1::ios_base::getloc() const", referenced from:
+      std::__1::basic_ios<char, std::__1::char_traits<char> >::widen(char) const in main-66d34c.o
+  "std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::__init(char const*, unsigned long)", referenced from:
+      std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::basic_string<std::__1::nullptr_t>(char const*) in main-66d34c.o
+  "std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::__init(unsigned long, char)", referenced from:
+      std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::basic_string(unsigned long, char) in main-66d34c.o
+  "std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::push_back(char)", referenced from:
+      std::__1::basic_istream<char, std::__1::char_traits<char> >& std::__1::getline<char, std::__1::char_traits<char>, std::__1::allocator<char> >(std::__1::basic_istream<char, std::__1::char_traits<char> >&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&, char) in main-66d34c.o
+  "std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::basic_string(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, unsigned long, unsigned long, std::__1::allocator<char> const&)", referenced from:
+      std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::substr(unsigned long, unsigned long) const in main-66d34c.o
+  "std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::~basic_string()", referenced from:
+      _main in main-66d34c.o
+      std::__1::ostreambuf_iterator<char, std::__1::char_traits<char> > std::__1::__pad_and_output<char, std::__1::char_traits<char> >(std::__1::ostreambuf_iterator<char, std::__1::char_traits<char> >, char const*, char const*, char const*, std::__1::ios_base&, char) in main-66d34c.o
+  "std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::operator=(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)", referenced from:
+      _main in main-66d34c.o
+  "std::__1::basic_istream<char, std::__1::char_traits<char> >::sentry::sentry(std::__1::basic_istream<char, std::__1::char_traits<char> >&, bool)", referenced from:
+      std::__1::basic_istream<char, std::__1::char_traits<char> >& std::__1::getline<char, std::__1::char_traits<char>, std::__1::allocator<char> >(std::__1::basic_istream<char, std::__1::char_traits<char> >&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&, char) in main-66d34c.o
+  "std::__1::basic_ostream<char, std::__1::char_traits<char> >::put(char)", referenced from:
+      std::__1::basic_ostr^[[>1;95;0ceam<char, std::__1::char_traits<char> >& std::__1::endl<char, std::__1::char_traits<char> >(std::__1::basic_ostream<char, std::__1::char_traits<char> >&) in main-66d34c.o
+  "std::__1::basic_ostream<char, std::__1::char_traits<char> >::flush()", referenced from:
+      std::__1::basic_ostream<char, std::__1::char_traits<char> >& std::__1::endl<char, std::__1::char_traits<char> >(std::__1::basic_ostream<char, std::__1::char_traits<char> >&) in main-66d34c.o
+  "std::__1::basic_ostream<char, std::__1::char_traits<char> >::sentry::sentry(std::__1::basic_ostream<char, std::__1::char_traits<char> >&)", referenced from:
+      std::__1::basic_ostream<char, std::__1::char_traits<char> >& std::__1::__put_character_sequence<char, std::__1::char_traits<char> >(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, char const*, unsigned long) in main-66d34c.o
+  "std::__1::basic_ostream<char, std::__1::char_traits<char> >::sentry::~sentry()", referenced from:
+      std::__1::basic_ostream<char, std::__1::char_traits<char> >& std::__1::__put_character_sequence<char, std::__1::char_traits<char> >(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, char const*, unsigned long) in main-66d34c.o
+  "std::__1::cin", referenced from:
+      _main in main-66d34c.o
+  "std::__1::cout", referenced from:
+      _main in main-66d34c.o
+  "std::__1::stoi(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, unsigned long*, int)", referenced from:
+      _main in main-66d34c.o
+  "std::__1::ctype<char>::id", referenced from:
+      std::__1::ctype<char> const& std::__1::use_facet<std::__1::ctype<char> >(std::__1::locale const&) in main-66d34c.o
+  "std::__1::locale::~locale()", referenced from:
+      std::__1::basic_ios<char, std::__1::char_traits<char> >::widen(char) const in main-66d34c.o
+  "std::__1::ios_base::__set_badbit_and_consider_rethrow()", referenced from:
+      std::__1::basic_ostream<char, std::__1::char_traits<char> >& std::__1::__put_character_sequence<char, std::__1::char_traits<char> >(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, char const*, unsigned long) in main-66d34c.o
+      std::__1::basic_istream<char, std::__1::char_traits<char> >& std::__1::getline<char, std::__1::char_traits<char>, std::__1::allocator<char> >(std::__1::basic_istream<char, std::__1::char_traits<char> >&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&, char) in main-66d34c.o
+  "std::__1::ios_base::clear(unsigned int)", referenced from:
+      std::__1::ios_base::setstate(unsigned int) in main-66d34c.o
+  "std::terminate()", referenced from:
+      ___clang_call_terminate in main-66d34c.o
+  "___cxa_begin_catch", referenced from:
+      ___clang_call_terminate in main-66d34c.o
+      std::__1::basic_ostream<char, std::__1::char_traits<char> >& std::__1::__put_character_sequence<char, std::__1::char_traits<char> >(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, char const*, unsigned long) in main-66d34c.o
+      std::__1::basic_istream<char, std::__1::char_traits<char> >& std::__1::getline<char, std::__1::char_traits<char>, std::__1::allocator<char> >(std::__1::basic_istream<char, std::__1::char_traits<char> >&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&, char) in main-66d34c.o
+  "___cxa_call_unexpected", referenced from:
+      bool std::__1::operator==<char, std::__1::char_traits<char>, std::__1::allocator<char> >(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, char const*) in main-66d34c.o
+      std::__1::ostreambuf_iterator<char, std::__1::char_traits<char> >::ostreambuf_iterator(std::__1::basic_ostream<char, std::__1::char_traits<char> >&) in main-66d34c.o
+      std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::clear() in main-66d34c.o
+      unsigned long std::__1::__str_find<char, unsigned long, std::__1::char_traits<char>, 18446744073709551615ul>(char const*, unsigned long, char const*, unsigned long, unsigned long) in main-66d34c.o
+      std::__1::char_traits<char>::find(char const*, unsigned long, char const&) in main-66d34c.o
+      std::__1::char_traits<char>::compare(char const*, char const*, unsigned long) in main-66d34c.o
+  "___cxa_end_catch", referenced from:
+      std::__1::basic_ostream<char, std::__1::char_traits<char> >& std::__1::__put_character_sequence<char, std::__1::char_traits<char> >(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, char const*, unsigned long) in main-66d34c.o
+      std::__1::basic_istream<char, std::__1::char_traits<char> >& std::__1::getline<char, std::__1::char_traits<char>, std::__1::allocator<char> >(std::__1::basic_istream<char, std::__1::char_traits<char> >&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&, char) in main-66d34c.o
+  "___gxx_personality_v0", referenced from:
+      _main in main-66d34c.o
+      bool std::__1::operator==<char, std::__1::char_traits<char>, std::__1::allocator<char> >(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, char const*) in main-66d34c.o
+      std::__1::basic_ostream<char, std::__1::char_traits<char> >& std::__1::__put_character_sequence<char, std::__1::char_traits<char> >(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, char const*, unsigned long) in main-66d34c.o
+      std::__1::ostreambuf_iterator<char, std::__1::char_traits<char> > std::__1::__pad_and_output<char, std::__1::char_traits<char> >(std::__1::ostreambuf_iterator<char, std::__1::char_traits<char> >, char const*, char const*, char const*, std::__1::ios_base&, char) in main-66d34c.o
+      std::__1::ostreambuf_iterator<char, std::__1::char_traits<char> >::ostreambuf_iterator(std::__1::basic_ostream<char, std::__1::char_traits<char> >&) in main-66d34c.o
+      std::__1::basic_ios<char, std::__1::char_traits<char> >::widen(char) const in main-66d34c.o
+      std::__1::basic_istream<char, std::__1::char_traits<char> >& std::__1::getline<char, std::__1::char_traits<char>, std::__1::allocator<char> >(std::__1::basic_istream<char, std::__1::char_traits<char> >&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&, char) in main-66d34c.o
+      ...
+ld: symbol(s) not found for architecture x86_64
+clang: [0;1;31merror: [0mlinker command failed with exit code 1 (use -v to see invocation)[0m
+make: *** [all] Error 1
+bash-3.2$ 
+bash-3.2$ -v
+bash: -v: command not found
+bash-3.2$ -vmake[2P-v[K-v
+bash: -v: command not found
+bash-3.2$ -vmakevim Makefile[C[C[C[C[C[C[C[C[C[C[8Pmake[2P-v[Kls
+Documentation for  Programming Assignment 1_ “main.docx
+Makefile
+PA01_Ishan_Brar.zip
+PA1
+a.out
+main.cpp
+bash-3.2$ cd
+bash-3.2$ ^[[2;2R^[[>1;95;0cbash-3.2$ ;2R1;95;0c;2R1;95;0c;2R1;95;0c;2R1;95;0c
+bash-3.2$ cat Makefiles_codeproject.typescript [C[1P[1P[1P[1@s[1@c[1@r[1@i[1@p[1@t[C[1@ 
+Script started, output file is Makefiles_codeproject.typescript
+[?1034hbash-3.2$ cd ..
+bash-3.2$ ls
+CS3340 assignments	Music			mips1.asm
+Desktop			Pictures		mips2.asm
+Documents		Public			test
+Downloads		VirtualBox VMs		z
+Library			bin
+Movies			cs3340test
+bash-3.2$ cd z
+bash-3.2$ ls
+Makefiles_codeproject.typescript	PA02_Ishan_Brar
+PA01_<Ishan>_<Brar>.zip			make_samples
+bash-3.2$ cd PA01_\<Ishan\>_\<Brar\>.zip/
+bash-3.2$ cat makefile.pa1 
+#This is another comment
+
+all:
+	g++ main.cpp -o yo
+	./yo
+compile:
+bash-3.2$ cd ..
+bash-3.2$ cd PA02_Ishan_Brar/
+bash-3.2$ ca [Kr ma[K[K[K[Kt makefile.pa2 
+#this is a comment
+all:
+	g++ filecnt.cpp -o filecnt | g++ filedisp.cpp -o filedisp
+	./filecnt /usr/share | ./filedisp -d
+compile:
+bash-3.2$ c[Kmake makefile.pa2 [K[K[K[K[K[K[K[K[K[K[K[K[K-f makefile.pa2 
+g++ filecnt.cpp -o filecnt | g++ filedisp.cpp -o filedisp
+./filecnt /usr/share | ./filedisp -d
+The current version is 1.2 The total number of directories 
+bash-3.2$ cd l[K..
+bash-3.2$ cd PA-1[K[K01_\<Ishan\>_\<Brar\>.zip/
+bash-3.2$ msk[K[Kake -f mal[Kl[K
+main.cpp      makefile.pa1  
+bash-3.2$ make -f ma
+main.cpp      makefile.pa1  
+bash-3.2$ make -f ma[K[Kmal[K[K[K[K[K[K[K[K[K[K[Kls
+Documentation for  Programming Assignment 1_ “main.docx
+PA01_Ishan_Brar.zip
+PA1
+PA_makefiles.typescript
+a.out
+main.cpp
+makefile.pa1
+other.h
+version.cpp
+x
+yo
+ztest
+bash-3.2$ make -f makefile.pa1 
+g++ main.cpp -o yo
+./yo
+The current version is 1.2
+Enter a URL to check for validity: 
+fake.com
+ 
+fake.com
+ 
+libc++abi.dylib: terminating with uncaught exception of type std::out_of_range: basic_string
+make: *** [all] Abort trap: 6
+bash-3.2$ exit
+exit
+
+Script done, output file is Makefiles_codeproject.typescript
+bash-3.2$ git
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   branch     List, create, or delete branches
+   checkout    Switch branches or restore working tree files
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   merge      Join two or more development histories together
+   rebase     Reapply commits on top of another base tip
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+bash-3.2$ git commit
+fatal: not a git repository (or any of the parent directories): .git
+bash-3.2$ git init [pa1]
+Initialized empty Git repository in /Users/singhz/z/[pa1]/.git/
+bash-3.2$ git init [pa1]
+Reinitialized existing Git repository in /Users/singhz/z/[pa1]/.git/
+bash-3.2$ git --version
+git version 2.20.1 (Apple Git-117)
+bash-3.2$ git config --list
+[?1h=credential.helper=osxkeychain[m
+user.name=Ishan Brar[m
+user.email=ishanbrar@hotmail.com[m
+filter.lfs.clean=git-lfs clean -- %f[m
+filter.lfs.smudge=git-lfs smudge -- %f[m
+filter.lfs.process=git-lfs filter-process[m
+filter.lfs.required=true[m
+[K[?1l>bash-3.2$ ls
+Makefiles_codeproject.typescript	[pa1]
+PA01_<Ishan>_<Brar>.zip			make_samples
+PA02_Ishan_Brar
+bash-3.2$ cd PA01_\<Ishan\>_\<Brar\>.zip/
+bash-3.2$ git init
+Initialized empty Git repository in /Users/singhz/z/PA01_<Ishan>_<Brar>.zip/.git/
+bash-3.2$ cd
+bash-3.2$ scri[K[K[K[Kcd z
+bash-3.2$ script PA_GitHub.typescript
+Script started, output file is PA_GitHub.typescript
+[?1034hbash-3.2$ init pa1
+bash: init: command not found
+bash-3.2$ git init pa1
+Initialized empty Git repository in /Users/singhz/z/pa1/.git/
+bash-3.2$ git init pa2
+Initialized empty Git repository in /Users/singhz/z/pa2/.git/
+bash-3.2$ git status
+fatal: not a git repository (or any of the parent directories): .git
+bash-3.2$ git stats pa[K[K[K[Kus pa1
+fatal: not a git repository (or any of the parent directories): .git
+bash-3.2$ cd pa1
+bash-3.2$ git stats
+git: 'stats' is not a git command. See 'git --help'.
+
+The most similar command is
+	status
+bash-3.2$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+bash-3.2$ cd ..
+bash-3.2$ cd pa1
+bash-3.2$ cd ..
+bash-3.2$ cd pa2
+bash-3.2$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+bash-3.2$ cd ..
+bash-3.2$ mv \[K[K[K[Kls
+Makefiles_codeproject.typescript	[pa1]
+PA01_<Ishan>_<Brar>.zip			make_samples
+PA02_Ishan_Brar				pa1
+PA_GitHub.typescript			pa2
+bash-3.2$ mv [K[K[K
